@@ -4,6 +4,12 @@
  * The provided datetime is adjusted for the provided timezone and formatted
  * according to the provided format. Daylight saving time _is_ accounted for.
  *
+ * This function is based on the following Stack Overflow answer and
+ * conversations with ChatGPT. No code or documentation was taken from ChatGPT
+ * verbatim.
+ *
+ * https://stackoverflow.com/a/40324587/715866
+ *
  * @param {string} utcDatetime - A UTC datetime (e.g., "2025-07-09T02:56:23Z").
  * @param {string} timezone - The timezone that the datetime should be adjusted
  *   to (e.g., "America/New_York").
